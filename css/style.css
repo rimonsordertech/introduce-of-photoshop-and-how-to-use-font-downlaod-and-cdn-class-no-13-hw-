@@ -1,0 +1,106 @@
+/* Font import */
+@font-face {
+  font-family: 'SunnySpells';
+  src: url('../font/sunnyspellsbasicregular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../font/opensans-regular.ttf') format('truetype');
+}
+
+/* Common style reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'OpenSans', sans-serif;
+}
+
+/* Body styling */
+body {
+	font-family:font/opensans-regular.ttf ;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding-bottom: 50px;
+}
+
+/* Header styling */
+header { font-family: sunnyspellsbasicregular.ttf;
+  background-color: #007acc;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'SunnySpells', cursive; /* হেডারে সুন্দর font */
+}
+
+h1 {
+	font-family: ;
+  font-size: 2.5rem;
+}
+
+h2 {
+	font-family: font/opensans-regular.ttf;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* Navigation */
+nav { font-family: sunnyspellsbasicregular.ttf;
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a { font-family: font/opensans-regular.ttf;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.5rem;
+}
+
+nav a:hover { font-family: sunnyspellsbasicregular.ttf;
+  color: #ffcc00;
+}
+
+/* Section Styling */
+section { font-family: font/opensans-regular.ttf;
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 { font-family: sunnyspellsbasicregular.ttf;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #007acc;
+}
+
+section p,
+section ul { font-family: font/opensans-regular.ttf;
+  font-size: 1rem;
+}
+
+/* Skills List */
+.wrapper ul {font-family: sunnyspellsbasicregular.ttf;
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Contact Section */
+.contact p { font-family: font/opensans-regular.ttf;
+  margin: 5px 0;
+}
+
+/* Footer Styling */
+footer { font-family: sunnyspellsbasicregular.ttf;
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
